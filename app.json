@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "facebook-ship-",
-    "slug": "snack-13fb8347-619a-4109-a1f3-d9a66431f6b3",
+    "slug": "snack-13fb8347-619a-4109-a1f3-d9a6",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,9 +13,11 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gamerboris700.facebookboris"
     },
     "android": {
+      "package": "com.gamerboris700.facebookboris",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -25,6 +27,6 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "description": "Boris Gamer - Réseau social pour connecter, partager et discuter entre amis."
+    "description": "Boris Gamer - Réseau social"
   }
 }
